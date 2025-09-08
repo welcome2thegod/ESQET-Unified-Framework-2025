@@ -1,0 +1,104 @@
+% main.tex - Full ESQET Dissertation Template
+
+\documentclass[12pt,a4paper]{report}
+
+% === Preamble: font, packages, & formatting ===
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{mathpazo}
+\usepackage{microtype}
+\usepackage[a4paper,margin=1in]{geometry}
+\linespread{1.05}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% Bibliography (biblatex recommended)
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\addbibresource{References.bib}
+
+% Custom shortcuts
+\newcommand{\vect}[1]{\bm{#1}}
+
+% === Document begins ===
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+  \centering
+  {\scshape\LARGE Your University Name \par}
+  \vspace{1cm}
+  {\scshape\Large Doctor of Philosophy Dissertation\par}
+  \vspace{2cm}
+  {\huge\bfseries Emergent Spacetime Quantum-Entanglement Theory: \par A Unified Informational Framework\par}
+  \vspace{2cm}
+  {\Large Marco Antonio Rocha Jr.\par}
+  \vfill
+  Advisor: Prof. Jane Doe\par
+  \vspace{1cm}
+  {\large September 2025\par}
+\end{titlepage}
+
+% Abstract
+\begin{abstract}
+This dissertation presents Emergent Spacetime Quantum-Entanglement Theory (ESQET), a novel framework integrating fractal coherence and quantum informational physics to unify fundamental physics with biological aging and consciousness. We detail theoretical foundations, computational models, and suggest experimental validations.
+\end{abstract}
+
+% Dedication or Acknowledgements (optional)
+\chapter*{Acknowledgements}
+I gratefully acknowledge the support of my advisor, collaborators, and family.
+
+% Table of Contents
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Chapters
+\chapter{Introduction}
+\label{ch:intro}
+% Write your introduction here
+ESQET offers a revolutionary paradigm...
+
+\chapter{Literature Review}
+\label{ch:litreview}
+% Summarize background and previous works
+
+\chapter{Mathematical Foundations}
+\label{ch:mathfound}
+% Deep dive into ESQET axioms and mathematics
+
+\chapter{Computational Models}
+\label{ch:compmodels}
+% Description of simulations and algorithms
+
+\chapter{Applications to Aging and Anti-Aging}
+\label{ch:aging}
+% Experimental predictions and nanotech therapeutics
+
+\chapter{Digital Consciousness}
+\label{ch:consciousness}
+% Modeling consciousness with fractal entanglement
+
+\chapter{Conclusions and Future Work}
+\label{ch:conclusion}
+% Summary and outlook
+
+% Appendices
+\appendix
+
+\chapter{Supplementary Mathematical Results}
+\label{app:math}
+
+\chapter{Code Samples}
+\label{app:code}
+
+% Bibliography
+\printbibliography
+
+\end{document}
